@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Dizendo ele que fez">
+    <meta name="author" content="lucas Math">
+
+    <title>C.S - Arena</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css' />
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <style type="text/css">
+      /* navbar*/
+      .bg-secondary{
+        background-color: #000 !important;
+      }
+      
+      /* fundo header e fonte*/
+
+      #fundo{
+        background-image: url(img/csf1.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        padding-top: 9%;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-position: absolute;
+        max-width: 100%;
+        height:100%;
+        background-size:cover;
+      }
+      /* imagem n bugar header*/
+      .masthead bg-primary text-white text-center{
+        background-image: url(img/csf1.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        max-width: 100%;
+        height:100%;
+        max-height: 100%;
+        padding-top: 9% !important;
+          padding-bottom: 6rem;
+      }
+      #fonteh1{
+        color: #FFD700;
+        padding: 10px 20px;
+        word-spacing: 4px;
+        letter-spacing: -1px;
+        text-shadow: 1px 1px black;
+        text-align: center;
+        margin-right: 50px;
+        left: 10px;
+
+      }
+      #fontepara{
+        color: #FFD700;
+        padding: 10px 20px;
+        word-spacing: 4px;
+        letter-spacing: -1px;
+        text-shadow: 1px 1px black;
+        text-align: center;
+        margin-right: 50px;
+        left: 10px;
+        font-size: 20px;
+
+      }
+      /* posicao texto 1 imagem*/
+      .mb-5{
+        text-align: left;
+      }
+      #count{
+        background-position: center;
+        width: 100%;
+        font-size: 100%;
+        height: auto;
+
+      }
+      /* cor de fundo grid 1*/
+      #portfolio{
+        background-image: url(img/coni.png);
+        background-attachment: fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        max-width: 100%;
+        height:100%;
+        max-height: 100%;
+        background-size: cover;
+        background-position: center;
+      }
+      /* titulo texto*/
+      #posi1{
+        padding: 30px 20px;
+        color: #000 !important;
+      }
+      #espaco{
+        background-color: #d3d3d3;
+        width: 100%;
+        height: auto;
+      }
+      #ct{
+        background-color: #000;
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        max-height: 100%;
+        padding: 0px 0px;
+      }
+      #portfolio-modal-1{
+        padding: 10px 20px;
+        margin-right: 40px;      
+      }
+      /* grid de selecao 1*/
+      #cont{
+        width: 400px;
+        height: 254.30px;
+      }
+      #posi{
+        padding: 30px 20px;
+        color: #fff !important;
+        word-spacing: 4px;
+        letter-spacing: -1px;
+        text-shadow: 1px 1px black;
+        text-align: center;
+      }
+      /* fontes das letras*/
+      #fonte{
+        color: #F7D700;
+        padding: 10px 20px;
+        word-spacing: 4px;
+        letter-spacing: -1px;
+        text-shadow: 1px 1px black;
+        text-align: left;
+        margin-right: 50px;
+        left: 10px;
+        font-size: 20px;
+      }
+      #titulo{
+        color: #F7D700 !important;
+        text-align: center;
+      }
+      /* fonte paragrafos grid*/
+      #para{
+        text-align: center;
+        color: #FFf;
+        word-spacing: 4px;
+        letter-spacing: -1px;
+        text-shadow: 1px 1px black;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      /* imagem grid 2*/
+      #im2{
+        width: 100%;
+        margin-top: 0px;
+        height: auto;
+      }
+      #portfolio-modal-2{
+        padding: 10px 20px;
+        margin-right: 40px;
+      }
+      /* grid 3*/
+      #portfolio-modal-3{
+        padding: 10px 20px;
+        margin-right: 40px;
+      }
+      /* grid 4*/
+      #portfolio-modal-4{
+        padding: 10px 20px;
+        margin-right: 40px;
+      }
+      /* grid 5*/
+      #portfolio-modal-5{
+        padding: 10px 20px;
+        margin-right: 40px;
+      }
+      /* grid 6*/
+      #portfolio-modal-6{
+        padding: 10px 20px;
+        margin-right: 40px;
+      }
+      /* videos area*/
+      #contact{
+        background-image: url(img/ani.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        max-width: 100%;
+        height:100%;
+        max-height: 100%;
+        background-size: cover;
+        background-position: center;
+      }
+      #vd{
+        color: #fff !important;
+      }
+      #cont1{
+        width: 400px;
+        height: 254.30px;
+        margin-top: 30px;
+      }
+      /* sobre redes sociais e rodape*/
+      #icone{
+        text-align: center;
+      }
+      #ic{
+        text-align: center;
+      }
+      a.botao, input.botao{
+        background: #1f3c58;
+        padding: 5px 10px;
+        border-radius: 3px;
+        color: #ebebeb;
+        cursor: pointer;
+        margin: 5px 0;
+        display: inline-block;
+        border: none;
+      }
+      a.botao:hover, input.botao:hover{
+        background: #000;
+        text-decoration: none;
+      }
+      footer{
+        background-color: #123456 !important;
+      }
+
+    </style>
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">CS - Arena</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Noticias</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Videos</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center" id="fundo">
+      <div class="container" id="fundo">
+        <div class="row">
+          <div class="col-sm-12">
+            <img  src="img/" id="foto" alt="">
+            <h1 class="text-uppercase mb-0" id="fonteh1">Counter Strike Arena</h1>
+            <h2 class="font-weight-light mb-0" id="fontepara">Um Lugar Para Adoradores De Counter Striker</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Portfolio Grid Section -->
+      <section class="" id="espaco">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white" id="posi1">O que é o Counter Strike?</h2>
+        <div class="row">
+          <div class="col-lg-6 ml-auto">
+            <p class="lead">Counter-Strike (também abreviado por CS) é um popular jogo eletrônico de tiro em primeira pessoa. Inicialmente criado como um "mod" de Half-Life para jogos online, foi desenvolvido por Minh Le e Jess Cliffe e depois adquirido pela Valve Corporation. Foi lançado em 1999, porém em 2000 ele começou a ser comercializado oficialmente, e posteriormente foram feitas versões para Xbox, Mac OS X e Linux. Atualmente o game é jogado na versão Counter-Strike: Global Offensive.
+            A ação de Counter-Strike se desenvolve em rodadas em uma duração definida pelo criador do server, nas quais a equipe terrorista (ou TR) enfrenta a equipe contra-terrorista (ou CT). A equipe vencedora é aquela que atende a todos os seus objetivos de vitória, de situação ou a eliminação de todos os jogadores do outro time. Se não houver nenhuma vitória direta de uma das duas equipes no final da rodada, a equipe que não fizer os seus objetivos perde por eliminação.</p>
+          </div>
+          <div class="col-lg-6 mr-auto">
+            <p class="lead">
+            Todos os jogadores começam o round com a mesma quantidade de pontos de vida (100) e a quantidade de pontos de armadura que conseguirem conservar durante a rodada anterior, ou caso puder comprar um novo colete. A vida do jogador diminui quando o dano for causado por disparos de seus oponentes ou dos companheiros - se houver fogo amigo (os companheiros causam menos danos, mas eles também podem matar) - ou por uma queda de uma grande altura. Os tiros podem ser acertados em diferentes partes do corpo (braço direito e esquerdo, perna direita e esquerda, tronco e cabeça), e causam dano variável no local afetado, sabendo-se que um tiro na cabeça (ou headshot) é muitas vezes mortal. A perda de pontos de vida só provoca uma pequena redução nos movimentos de contra-terroristas ou terroristas que receberam dano. Quando todos os pontos de saúde acabam, o jogador morre.</p>
+          </div>
+        </div>
+    </section>
+
+    </div>
+    <section class="portfolio" id="portfolio">
+      <div id="cor1">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0" id="posi">Noticias</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/cont.jpg" id="cont" alt="">
+            </a>
+            <p id="para">O Clássico C.S 1.6</p>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/cheats.jpg" id="cont" alt="">
+            </a>
+            <p id="para">Cheats para CS 1.6</p>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/bug.jpg" id="cont" alt="">
+            </a>
+            <p id="para">Bug no Mapa do C.S Rio</p>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/csgo.jpg" id="cont" alt="">
+            </a>
+            <p id="para" id="para">O Novo Counter Striker</p>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/7.jpg"  id="cont" alt="">
+            </a>
+            <p id="para">Curiosidades C.S G.O</p>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" id="cont" src="img/wal.jpg" alt="">
+            </a>
+            <p id="para" id="para">Skins C.S G.O</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- Contact Section -->
+<!-- videos -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white" id="vd">Videos</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div id="a"><iframe width="400" height="300" class="img-fluid" id="cont1" src="https://www.youtube.com/embed/ySQUAkJ3waA" id="a" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+          </div>
+            <div class="col-md-6 col-lg-4">
+              <div id="b"><iframe width="400" height="300" class="img-fluid" id="cont1" src="https://www.youtube.com/embed/WuKxLlLLkek" id="b" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div id="c"><iframe width="400" height="300" class="img-fluid" id="cont1" src="https://www.youtube.com/embed/VKnaNUuy3-M" id="c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div ><iframe width="400" height="300" class="img-fluid" id="cont1" src="https://www.youtube.com/embed/05zb3Bg91CE" id="a" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+          </div>
+            <div class="col-md-6 col-lg-4">
+              <div ><iframe width="400" height="300" class="img-fluid" id="cont1" src="https://www.youtube.com/embed/H6bx96ngcMc" id="b" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div ><iframe width="400" height="300" class="img-fluid" id="cont1" src="https://www.youtube.com/embed/HhMP8UiLfFI" id="c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- fecha -->        
+
+     <!-- About Section -->
+    <section class="bg-primary text-white mb-0" id="about">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white">Sobre</h2>
+        <hr class="star-light mb-5">
+        <div class="row">
+          <div class="col-lg-6 ml-auto">
+            <p class="lead"> A CS - Arena(Counter Strike - Arena) É um site onde todos os fãs do Unverso CS podem encontrar as últimas notícias sobre os jogos, mods, BUGS nos mapas e Skins.</p>
+          </div>
+          <div class="col-lg-6 mr-auto">
+            <p class="lead">Caso você tenha sugestões de como podemos melhorar nosso site entre em Contato nas nossas redes socias.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4" id="ic">Nossas Redes Socias</h4>
+            <ul class="list-inline mb-0" id="icone">
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fab fa-fw fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://plus.google.com/u/0/111810520374974274375">
+                  <i class="fab fa-fw fa-google-plus-g"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fab fa-fw fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4 class="text-uppercase mb-4">Sobre o CS</h4>
+            <p class="lead mb-0">O C.S é um jogo que revolucionou a maneira de se jogar em grupo, sem falar da nostalgia que era jogar nas L@an house...
+              <a href="https://pt.wikipedia.org/wiki/Counter-Strike" class="botao">Continuar lendo &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small>Copyright &copy; C.S - Arena 2018</small>
+      </div>
+    </div>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1" >
+      <div class="portfolio-modal-dialog bg-white" id="ct">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center" id="ct" >
+          <div class="row">
+            <div class="col-lg-8 mx-auto" id="ct">
+              <img class="img-fluid mb-5" id="count" src="img/portfolio/count.jpg" alt="">
+              <h3 class="text-secondary text-uppercase mb-0" id="titulo">O Clássico C.S 1.6</h3>
+              <p class="mb-5" id="fonte">Counter-Strike (também abreviado por CS) é um popular jogo eletrônico de primeira pessoa. foi desenvolvido por Minh Le e Jess Cliffe e depois adquirido pela Valve Corporation. Foi lançado em 1999, porém em  2000 ele começou a ser comercializado oficialmente, e posteriormente foram feitas versões para Xbox, Mac OS X e Linux.  Atualmente o game é jogado na versão Counter-Strike: Global Offensive. Para surpresa da desenvolvedora, criar Counter-Strike foi um marco histórico no início do século 21 e ainda "considerado o grande responsável pela popularização das LAN houses no mundo."</p>
+              <h3 class="text-secondary text-uppercase mb-0" id="titulo">Mas o que torna o Counter Striker tão bom?</h3>
+              <p class="mb-5" id="fonte">Fácil, a simplicidade de jogabilidade e diversão (o que falta para alguns jogos atuais). CS é tão bom que mesmo que você jogue sozinho, ainda será divertido, mas "Jogar sozinho nunca é tão bom quanto jogar com os amigos". O jogo não tem história, você segue a ideia de competição, onde quem mata mais sempre ganha. Vale a pena se estressar até levando 'head', mas o prazer que o jogo passa para você é simbólico. </p>
+              
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+      <div class="portfolio-modal-dialog bg-white" id="ct">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center" id="ct">
+          <div class="row">
+            <div class="col-lg-8 mx-auto" >
+              <h2 class="text-secondary text-uppercase mb-0" id="titulo">Cheats Para C.S 1.6</h2>
+              <p class="mb-5" id="fonte">Counter-Strike 1.6 é um jogo de tiro muito popular para Windows e que suporta códigos e cheats, ou “trapaças”, que podem te deixar mais forte durante as partidas. Com os macetes, você também pode alterar detalhes da partida, desde que esteja utilizando a máquina que funciona como servidor dela. 
+              Veja a lista abaixo:</p>
+              <img class="img-fluid mb-5" src="img/codigos.png" id="im2" alt="">
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close" id="dist"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+      <div class="portfolio-modal-dialog bg-white" id="ct">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center" id="ct">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0" id="titulo">Curiosidades No Mapa Do C.S 1.6</h2>
+              <p class="mb-5" id="fonte">Vá até a caixa dágua e atire na parte de cima da entrada.</p>
+              <img class="img-fluid mb-5" id="im2" src="img/print/1.png" alt="">
+              <p class="mb-5" id="fonte">Depois vá ao bar da Peixuxa e destrua todas as cadeiras dos 2 andares.</p>
+              <img class="img-fluid mb-5" src="img/print/2.png" id="im2" alt="">
+              <p class="mb-5" id="fonte">Depois ative o código da gravidade e pule em cima da casa que fica em frente ao bar da Peixuxa e voce verá um alien.</p>
+              <img class="img-fluid mb-5" src="img/print/3.png" id="im2" alt="">
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+      <div class="portfolio-modal-dialog bg-white" id="ct">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center" id="ct">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0" id="titulo">C.S GO</h2>
+              <img class="img-fluid mb-5" src="img/csgo.jpg" id="im2" alt="">
+              <p class="mb-5" id="fonte"> jogo de tiro em primeira pessoa multiplayer desenvolvido pela Hidden Path Entertainment eValve Corporation . É o quarto jogo no Counter-Strike série e foi lançado para Microsoft Windows , OS X , Xbox 360 e PlayStation 3 em agosto de 2012, com o Linuxversão lançada em setembro de 2014. O jogo coloca duas equipes uma contra a outra: os terroristas e os contra-terroristas. Ambos os lados têm a tarefa de eliminar o outro enquanto completam objetivos separados, os terroristas, dependendo do modo de jogo, devem plantar a bomba ou defender os reféns , enquanto os Contra-Terroristas devem impedir que a bomba seja plantada, desarmar a bomba. ou resgatar os reféns. Existem oito modos de jogo, todos com características distintas específicas para esse modo.</p>
+              <p class="mb-5" id="fonte">Ele permite aos jogadores jogar em servidores dedicados da Valve, bem como permitir que membros da comunidade hospedem seus próprios servidores com mapas personalizados e modos de jogo. A Global Offensive tem um cenário competitivo , com os torneios patrocinados pela Valve sendo os principais eventos competitivos para o jogo.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
+      <div class="portfolio-modal-dialog bg-white" id="ct">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center" id="ct">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0" id="titulo">Curiosidades C.S G.O</h2>
+              <p class="mb-5" id="fonte">Counter-Strike: Global Offensive está no mercado desde o dia 21 de Agosto de 2012 e com certeza ajudou muito o cenário de eSports a crescer desde que se firmou. O game se mostrou um grande sucessor da franquia e está entre os jogos mais jogados e disputados internacionalmente. Dentro do jogo há várias peculiaridades que passam despercebidas –  umas úteis, outras nem tanto – mas com certeza muito curiosas. Entre Algumas podemos citar:</p>
+              <img class="img-fluid mb-5" id="im2" src="img/3.jpg" alt="https://arenaesports.com.br/wp-content/uploads/2018/02/curiosidades-csgo-1024x584.jpg">
+              <p class="mb-5" id="fonte" >Se você habilitar os tutoriais, você pode encontrar a bomba na smoke. Este pode ser um truque pra te ajudar a localizar a bomba até mesmo quando você está sem fone de ouvido. Mas, por favor, não jogue sem fone de ouvido.</p>
+              <img class="img-fluid mb-5" src="img/4.jpg" id="im2" alt="https://arenaesports.com.br/wp-content/uploads/2018/02/csgo-para-ps3-1024x569.jpg">
+              <p class="mb-5" id="fonte">No inicio o jogo não foi planejado para ser um um sucessor de Counter Strike 1.6 e Counter Strike: Source. O jogo teria apenas uma versão para consoles, mas no meio do caminho a Valve acabou mudando de ideia e incluindo a versão para PC.</p>
+              <img class="img-fluid mb-5" src="img/5.jpg" id="im2" alt="https://arenaesports.com.br/wp-content/uploads/2018/02/galinhas-csgo-1024x569.jpg">
+              <p class="mb-5" id="fonte">Se você segurar a tecla E olhando para uma galinha ela te seguirá até o fim da partida. Quando ela morrer, exibirá no chat quanto tempo ela esteve na batalha junto com você.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
+      <div class="portfolio-modal-dialog bg-white" id="ct">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center" id="ct">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0" id="titulo">Strike global Offensive</h2>
+              <p class="mb-5" id="fonte">Counter Strike: Global Offensive – Neste jogo há adereços (facas e skins para armas) que podem alcançar cerca de 500€. Algumas exemplos são:</p>
+              <img class="img-fluid mb-5" src="img/skin.jpg" id="im2"  alt="">
+              <img class="img-fluid mb-5" src="img/skin2.png" id="im2" alt="">
+              <img class="img-fluid mb-5" src="img/skin3.png" id="im2" alt="">
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>
